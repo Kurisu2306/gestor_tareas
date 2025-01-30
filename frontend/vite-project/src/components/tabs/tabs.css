@@ -1,0 +1,36 @@
+/* Tabs.css */
+
+.tab-titles {
+    display: flex; /* Usar flexbox para alinear las pestañas horizontalmente */
+    border-bottom: 2px solid #ccc; /* Línea inferior para separar las pestañas del contenido */
+    margin-bottom: 1rem; /* Espacio entre las pestañas y el contenido */
+  }
+  
+  .tab-titles button {
+    background: none; /* Sin fondo */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espaciado interno */
+    cursor: pointer; /* Cambiar el cursor al pasar el mouse */
+    font-size: 16px; /* Tamaño de fuente */
+    transition: background-color 0.3s; /* Transición suave para el fondo */
+  }
+  
+  .tab-titles button:hover {
+    background-color: #f0f0f0; /* Color de fondo al pasar el mouse */
+  }
+  
+  .tab-titles button:focus {
+    outline: none; /* Sin contorno al hacer clic */
+  }
+  
+  .tab-titles button.active {
+    border-bottom: 2px solid #007bff; /* Línea inferior para la pestaña activa */
+    font-weight: bold; /* Negrita para la pestaña activa */
+  }
+  
+  .tab-content {
+    padding: 20px; /* Espaciado interno para el contenido */
+    border: 1px solid #ccc; /* Borde alrededor del contenido */
+    border-radius: 4px; /* Bordes redondeados */
+    background-color: #fff; /* Fondo blanco para el contenido */
+  }

@@ -1,0 +1,67 @@
+header {
+  background-color: #333; /* Color de fondo */
+  color: white; /* Color del texto */
+  padding: 10px 400px; /* Espaciado interno */
+}
+
+nav ul {
+  list-style: none; /* Sin viñetas */
+  padding: 0; /* Sin padding */
+}
+
+nav ul li {
+  display: inline; /* Mostrar en línea */
+  margin-right: 20px; /* Espacio entre los elementos */
+}
+
+nav ul li a {
+  color: white; /* Color del enlace */
+  text-decoration: none; /* Sin subrayado */
+}
+
+nav ul li a:hover {
+  text-decoration: underline; /* Subrayar al pasar el mouse */
+}
+/* header.css */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Asegúrate de que el body ocupe toda la altura */
+}
+
+.header {
+  position: fixed; /* Fija el header en la parte superior */
+  top: 0; /* Coloca el header en la parte superior */
+  left: 0; /* Alinea el header a la izquierda */
+  right: 0; /* Alinea el header a la derecha */
+  background-color: #ff323288; /* Color de fondo del header */
+  padding: 10px 20px; /* Espaciado interno */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+  z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
+}
+
+nav ul {
+  list-style: none; /* Sin viñetas */
+  padding: 0; /* Sin padding */
+  margin: 0; /* Sin margen */
+}
+
+nav ul li {
+  display: inline; /* Mostrar en línea */
+  margin-right: 20px; /* Espacio entre los elementos */
+}
+
+nav ul li a {
+  text-decoration: none; /* Sin subrayado */
+  color: white; /* Color del texto */
+}
+
+nav ul li a:hover {
+  text-decoration: underline; /* Subrayar al pasar el mouse */
+}
+
+/* Asegúrate de que el contenido principal no quede oculto detrás del header */
+.App {
+  margin-top: 60px; /* Ajusta según la altura de tu header */
+}

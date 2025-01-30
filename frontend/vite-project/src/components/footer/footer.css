@@ -1,0 +1,93 @@
+/* General Footer Styling */
+footer {
+  background-color: #282c34;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.col {
+  flex: 1;
+  min-width: 250px;
+}
+
+/* Copyright Section */
+.col p {
+  font-size: 14px;
+  margin: 0;
+}
+
+/* Useful Links Section */
+.col h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.col ul li {
+  margin-bottom: 8px;
+}
+
+.col ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.col ul li a:hover {
+  color: #00bcd4;
+}
+
+/* Social Icons Section */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 0;
+  margin: 10px 0 0;
+}
+
+.social-icons li {
+  list-style: none;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 20px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+  color: #00bcd4;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .col {
+    margin-bottom: 20px;
+  }
+}
