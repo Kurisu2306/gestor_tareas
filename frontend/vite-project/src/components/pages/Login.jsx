@@ -38,9 +38,10 @@ export const LoginComponent = () => {
 
   return (
     <div>
-      <h1>LOGIN</h1>
+      <h1>.</h1>
       {error && <p className="error">{error}</p>} {/* Muestra el mensaje de error si existe */}
       <form onSubmit={handleLogin}>
+      <h1>LOGIN</h1>
         <label className="email">Correo electrónico:</label>
         <input
           type="email"

@@ -43,6 +43,7 @@ const TaskForm = ({ onSubmit, existingTask = null }) => {
 
   return (
     <form onSubmit={handleSubmit}>
+      <h1>Gestión de Tareas</h1>
       <div>
         <label>Título:</label>
         <input
@@ -80,7 +81,7 @@ const TaskForm = ({ onSubmit, existingTask = null }) => {
           <option value="baja">Baja</option>
         </select>
       </div>
-      <div>
+     <div>
   <label>Estado:</label>
   <select name="status" value={task.status} onChange={handleChange}>
     <option value="Pendiente">Pendiente</option>

@@ -91,7 +91,7 @@ const TaskManager = () => {
 
   return (
     <div>
-      <h1>Gestión de Tareas</h1>
+      <h1>.</h1>
       {error && <p className="error">{error}</p>}
       <TaskForm onSubmit={handleCreateOrUpdateTask} existingTask={editingTask} />
       <h2>Lista de Tareas</h2>

@@ -35,9 +35,9 @@ html, body {
   top: 0; /* Coloca el header en la parte superior */
   left: 0; /* Alinea el header a la izquierda */
   right: 0; /* Alinea el header a la derecha */
-  background-color: #ff323288; /* Color de fondo del header */
+  background-color: gray; /* Color de fondo del header */
   padding: 10px 20px; /* Espaciado interno */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+  box-shadow: 0 2px 4px #221b1bf5; /* Sombra para dar profundidad */
   z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
 }
 

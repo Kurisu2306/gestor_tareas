@@ -53,10 +53,11 @@ export const Registro = () => {
 
   return (
     <div>
-      <h1>Regístrate</h1>
+      <h1>.</h1>
        
       {error && <p className="error">{error}</p>} {/* Muestra el mensaje de error si existe */}
       <form onSubmit={handleSubmit}>
+      <h1>Regístrate</h1>
         <label className="nombre">Nombre:</label>
         <input
           type="text"

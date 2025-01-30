@@ -4,6 +4,10 @@ footer {
   color: white;
   padding: 20px 0;
   text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }
 
 .container {
@@ -78,6 +82,19 @@ footer {
 .social-icons a:hover {
   transform: scale(1.2);
   color: #00bcd4;
+}
+
+/* Ensure body and main content stretch to push footer down */
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  padding-bottom: 60px; /* Ajustar para que no se solape con el footer */
 }
 
 /* Responsive Design */

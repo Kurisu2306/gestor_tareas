@@ -4,7 +4,7 @@ import "./footer.css";
 export const Footer = () => {
   return (
     <footer>
-      <div className="container">
+      
         <div className="row">
           <div className="col">
             <p>Copyright © 2025 Tu Empresa. Todos los derechos reservados.</p>
@@ -44,7 +44,7 @@ export const Footer = () => {
             </ul>
           </div>
         </div>
-      </div>
+      
     </footer>
   );
 };
