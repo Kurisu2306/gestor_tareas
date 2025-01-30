@@ -59,6 +59,8 @@ export const LoginComponent = () => {
         />
 
         <button type="submit">Iniciar sesión</button>
+        <br />
+        <br />
         <button type="button" onClick={handleRegisterClick}>Registrarse</button>
       </form>
     </div>
